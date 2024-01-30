@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.818" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\bindu\eclipse-workspace\CucumberTestNGProject\target\test-classes;C:\Users\bindu\eclipse-workspace\CucumberTestNGProject\target\classes;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\bindu\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\bindu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\bindu\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\bindu\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bindu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bindu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\bindu\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\bindu\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bindu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bindu\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bindu\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\bindu\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\bindu\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\bindu\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\bindu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\bindu\AppData\Local\Temp\surefire13362613103291584722\surefirebooter-20240130174136060_3.jar C:\Users\bindu\AppData\Local\Temp\surefire13362613103291584722 2024-01-30T17-41-35_885-jvmRun1 surefire-20240130174136060_1tmp surefire_0-20240130174136060_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bindu\eclipse-workspace\CucumberTestNGProject\target\test-classes;C:\Users\bindu\eclipse-workspace\CucumberTestNGProject\target\classes;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\bindu\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\bindu\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\bindu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\bindu\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\bindu\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\bindu\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bindu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bindu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\bindu\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\bindu\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bindu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bindu\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bindu\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\bindu\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\bindu\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\bindu\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\bindu\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\bindu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\bindu\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bindu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\bindu\eclipse-workspace\CucumberTestNGProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\bindu\AppData\Local\Temp\surefire13362613103291584722\surefirebooter-20240130174136060_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="bindu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\bindu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bindu\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\bindu\eclipse-workspace\CucumberTestNGProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\bindu\Downloads\apache-maven-3.9.6\bin;C:\Users\bindu\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login Page title check&quot;, &quot;User login scenario check&quot;](1)" classname="testrunners.MyTestRunner" time="5.012">
+    <system-out><![CDATA[...
+... TestNG 7.9.0 by Cédric Beust (cedric@beust.com)
+...
+
+
+Scenario Outline: Login with wrong credentials         # src/test/resources/features/LoginPage.feature:29
+
+Scenario: Login Page title check              # src/test/resources/features/LoginPage.feature:7
+
+Scenario: Home Page menu check                        # src/test/resources/features/MyHomePage.feature:17
+
+Scenario Outline: Login with wrong credentials          # src/test/resources/features/LoginPage.feature:28
+
+Scenario: Home Page logo check                        # src/test/resources/features/MyHomePage.feature:9
+
+Scenario: Login with correct credentials            # src/test/resources/features/LoginPage.feature:14
+Browser from property file ischrome
+Browser is  chrome
+Browser from property file ischrome
+Browser is  chrome
+Browser from property file ischrome
+Browser is  chrome
+Browser from property file ischrome
+Browser is  chrome
+Browser from property file ischrome
+Browser is  chrome
+Browser from property file ischrome
+Browser is  chrome
+hello the driver isChromeDriver: chrome on windows (d5a3e766097e5d7eafddd9df46b37512)
+hello the driver isChromeDriver: chrome on windows (3804f71104f4776bb2b6d26385358522)
+hello the driver isChromeDriver: chrome on windows (064a6d717a4722a3952dc21db9e45ded)
+  Given User is on login page                 # stepdefinitions.LoginSteps.user_is_on_login_page()
+  When I get the title of Login Page          # stepdefinitions.LoginSteps.i_get_the_title_of_login_page()
+  Then Login Page title should be "Swag Labs" # stepdefinitions.LoginSteps.login_page_title_should_be(java.lang.String)
+hello the driver isChromeDriver: chrome on windows (41f937414c2f3ae1d5934e3103c9a610)
+hello the driver isChromeDriver: chrome on windows (5a9f991960b05a117207c65c70ae4224)
+  Given User is on login page                       # stepdefinitions.LoginSteps.user_is_on_login_page()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jan 30, 2024 5:41:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+Jan 30, 2024 5:41:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+Jan 30, 2024 5:41:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+Jan 30, 2024 5:41:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+Jan 30, 2024 5:41:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+Jan 30, 2024 5:41:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Home Page menu check&quot;, &quot;Home Page scenario check&quot;](2)" classname="testrunners.MyTestRunner" time="5.821">
+    <system-out><![CDATA[hello the driver isChromeDriver: chrome on windows (00c29b82298d6f2eb9df3eedefc43979)
+  Given User has already logged in to the application # stepdefinitions.HomePageSteps.user_has_already_logged_in_to_the_application(io.cucumber.datatable.DataTable)
+    | uid           | pwd          |
+    | standard_user | secret_sauce |
+  Given User is on login page                           # stepdefinitions.LoginSteps.user_is_on_login_page()
+  Given User is on login page                          # stepdefinitions.LoginSteps.user_is_on_login_page()
+  When I enter userid and password                  # stepdefinitions.LoginSteps.i_enter_userid_and_password(io.cucumber.datatable.DataTable)
+    | uid           | pwd          |
+    | standard_user | secret_sauce |
+  When User click on menu button on top left          # stepdefinitions.HomePageSteps.user_click_on_menu_button_on_top_left()
+Expected links are [All Items, About, Logout, Reset App State]
+4
+text at first place is All Items
+All Items
+About
+Logout
+  And Click on Login button                         # stepdefinitions.LoginSteps.click_on_login_button()
+Reset App State
+Actual links are [All Items, About, Logout, Reset App State]
+  Then User gets menu item links                      # stepdefinitions.HomePageSteps.user_gets_menu_item_links(io.cucumber.datatable.DataTable)
+    | All Items       |
+    | About           |
+    | Logout          |
+    | Reset App State |
+  And Links count should be 4                         # stepdefinitions.HomePageSteps.links_count_should_be(java.lang.Integer)
+  Then Home page should appear with logo "Products" # stepdefinitions.LoginSteps.home_page_should_appear_with_logo(java.lang.String)
+  When I enter wrong userid "goofy" and password "abc" # stepdefinitions.LoginSteps.i_enter_wrong_userid_and_password(java.lang.String,java.lang.String)
+  When I enter wrong userid "pony" and password "goofy" # stepdefinitions.LoginSteps.i_enter_wrong_userid_and_password(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with correct credentials&quot;, &quot;User login scenario check&quot;](3)" classname="testrunners.MyTestRunner" time="5.834"/>
+  <testcase name="runScenario[&quot;Login with wrong credentials&quot;, &quot;User login scenario check&quot;](4)" classname="testrunners.MyTestRunner" time="6.081">
+    <system-out><![CDATA[  And I click on Login button                           # stepdefinitions.LoginSteps.i_click_on_login_button()
+  And I click on Login button                          # stepdefinitions.LoginSteps.i_click_on_login_button()
+  Then Error message should appear                     # stepdefinitions.LoginSteps.error_message_should_appear()
+  Then Error message should appear                      # stepdefinitions.LoginSteps.error_message_should_appear()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with wrong credentials&quot;, &quot;User login scenario check&quot;](5)" classname="testrunners.MyTestRunner" time="6.097"/>
+  <testcase name="runScenario[&quot;Home Page logo check&quot;, &quot;Home Page scenario check&quot;](6)" classname="testrunners.MyTestRunner" time="6.347">
+    <system-out><![CDATA[  Given User has already logged in to the application # stepdefinitions.HomePageSteps.user_has_already_logged_in_to_the_application(io.cucumber.datatable.DataTable)
+    | uid           | pwd          |
+    | standard_user | secret_sauce |
+The home page logo text is Products
+  When User gets the logo text of the Home Page       # stepdefinitions.HomePageSteps.user_gets_the_logo_text_of_the_home_page()
+  Then Home page should appear with logo "Products"   # stepdefinitions.LoginSteps.home_page_should_appear_with_logo(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
